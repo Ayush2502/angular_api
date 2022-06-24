@@ -1,0 +1,4 @@
+<div class="main">
+  <button *ngIf="!show"  (click)="open()">Show data</button>
+</div>
+<router-outlet *ngIf="show"></router-outlet>
